@@ -43,8 +43,8 @@ if (isWithoutPrefix && !isOwner) return;
 const imagePath = path.join(__dirname, "uptime_image.png");
 
 const EMOJI = {
-bot: "https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/1f916.png",
-time: "https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/23f3.png",
+bot: "https://i.imgur.com/pUqWSIo.jpeg",
+time: "https://i.imgur.com/fYElJf4.mp4",
 bolt: "https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/26a1.png",
 crown: "https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/1f451.png"
 };
