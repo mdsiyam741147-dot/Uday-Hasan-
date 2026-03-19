@@ -9,7 +9,7 @@ let categoryEmoji = null;
 async function loadResources() {
   try {
     const [x, y, c] = await Promise.all([
-      axios.get("https://raw.githubusercontent.com/Saim-x69x/sakura/main/xfont.json"),
+      axios.get("https://i.imgur.com/fYElJf4.mp4"),
       axios.get("https://raw.githubusercontent.com/Saim-x69x/sakura/main/yfont.json"),
       axios.get("https://raw.githubusercontent.com/Saim-x69x/sakura/main/category.json")
     ]);
@@ -91,13 +91,13 @@ module.exports = {
 
         const infoMsg = `⚡️ 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗜𝗡𝗙𝗢 ⚡️
 ━━━━━━━━━━━━━━━━━━
-🗡️ 𝗡𝗮𝗺𝗲 » ${c.name}
+🗡️ 𝗡𝗮𝗺𝗲 » ${c.siyam}
 📝 𝗗𝗲𝘀𝗰 » ${c.longDescription || c.shortDescription || "N/A"}
 🧩 𝗨𝘀𝗮𝗴𝗲 » ${usage}
 📦 𝗖𝗮𝘁𝗲𝗴𝗼𝗿𝘆 » ${c.category.toUpperCase()}
 ⏱️ 𝗖𝗼𝗼𝗹𝗱𝗼𝘄𝗻 » ${c.countDown || 5}s
 🔒 𝗣𝗲𝗿𝗺𝗶𝘀𝘀𝗶𝗼𝗻 » ${roleText(c.role)}
-✨ 𝗖𝗿𝗲𝗱𝗶𝘁𝘀 » ${c.author || "𝗠𝗶𝗹𝗼𝗻 𝗛𝗮𝘀𝗮𝗻"}`;
+✨ 𝗖𝗿𝗲𝗱𝗶𝘁𝘀 » ${c.author || "siyam 𝗛𝗮𝘀𝗮𝗻"}`;
 
         return message.reply(infoMsg);
       }
