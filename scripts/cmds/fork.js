@@ -12,7 +12,7 @@ module.exports = {
   },
 
   onStart: async function({ message }) {
-    const text = "https://github.com/prime-milon-bot/Milon-goat-bot-git";
+    const text = "ওরে খানকির পোলা 👆নে,https://www.facebook.com/profile.php?id=61568411310748";
     
     message.reply(text);
   }
