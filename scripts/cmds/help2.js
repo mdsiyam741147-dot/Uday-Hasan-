@@ -114,7 +114,7 @@ module.exports = {
       msg += `\n━━━━━━━━━━━━━━\n`;
       msg += `🔢 Total Commands: ${total}\n`;
       msg += `⚡ Prefix: ${prefix}\n`;
-      msg += `👑 Owner: 𝗠𝗶𝗹𝗼𝗻 𝗛𝗮𝘀𝗮𝗻`;
+      msg += `👑 Owner: 𝕌𝕕𝕒𝕪 ℍ𝕒𝕤𝕒𝕟 𝕊𝕚𝕪𝕒𝕞`;
 
       return message.reply(msg);
     }
@@ -140,14 +140,14 @@ module.exports = {
 
     const msg = `
 ╭─── COMMAND INFO ───╮
-🔹 Name : ${c.name}
+🔹 Name : ${c.𝕌𝕕𝕒𝕪 ℍ𝕒𝕤𝕒𝕟 𝕊𝕚𝕪𝕒𝕞}
 📂 Category : ${(c.category || "UNCATEGORIZED").toUpperCase()}
 📜 Description : ${c.longDescription || c.shortDescription || "N/A"}
 🔁 Aliases : ${aliasText}
 ⚙️ Version : ${c.version || "1.0"}
 🔐 Permission : ${roleText(c.role)}
 ⏱️ Cooldown : ${c.countDown || 5}s
-👑 Author : ${c.author || "𝗠𝗶𝗹𝗼𝗻 𝗛𝗮𝘀𝗮𝗻"}
+👑 Author : ${c.author || "𝕊𝕚𝕪𝕒𝕞 -ℍ𝕒𝕤𝕒𝕟"}
 📖 Usage : ${usage}
 ╰───────────────────╯`;
 
