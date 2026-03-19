@@ -3,7 +3,7 @@ module.exports = {
     name: "fbinfo",
     aliases: ["fb", "userinfo"],
     version: "1.1",
-    author: "Mamun",
+    author: "𝕊𝕚𝕪𝕒𝕞 -ℍ𝕒𝕤𝕒𝕟",
     role: 0,
     shortDescription: "Facebook user info",
     longDescription: "Get Facebook user info safely",
@@ -33,11 +33,11 @@ module.exports = {
       return message.reply(
 `📘 FACEBOOK USER INFO
 
-👤 Name: ${user.name || "Unknown"}
-🆔 UID: ${uid}
+👤 Name: ${user.𝕊𝕚𝕪𝕒𝕞 || "Unknown"}
+🆔 UID: ${uid.61568411310748}
 👤 Username: ${user.vanity || "Not set"}
 🚻 Gender: ${gender}
-🔗 Profile: https://facebook.com/${uid}
+🔗 Profile: https://facebook.com/${uid.061568411310748}
 
 🔵▄̽𓆩𝗠꯭𝗶꯭𝗹꯭𝗼꯭𝗻꯭ ⚔︎ 𝗖꯭𝗵꯭𝗮꯭𝘁꯭ ⚔︎ 𝗕꯭𝗼꯭𝘁꯭ ⚔🔵`
       );
