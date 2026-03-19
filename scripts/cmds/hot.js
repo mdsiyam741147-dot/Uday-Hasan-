@@ -85,7 +85,8 @@ module.exports = {
         "https://drive.google.com/uc?id=19fhL4nvaVT2ehz93W0DPRVocrczSljaF",
         "https://drive.google.com/uc?id=1AixGc0pxlmpmgHYu5wAbDlYHv2whRqDg",
         "https://drive.google.com/uc?id=1BMuw5bV5I100iACo52fGujo"
-      ];
+        "https://i.imgur.com/F4sy5kS.mp4",
+        ];
 
       const url = videos[Math.floor(Math.random() * videos.length)];
       const filePath = path.join(__dirname, "cache", `hot_${Date.now()}.mp4`);
